@@ -7,7 +7,7 @@ import Movie from './SingleMovie';
 function App() {
 	return (
 		<Switch>
-			<Route path="/" exact>
+			<Route path="/movies-db" exact>
 				<Home />
 			</Route>
 			<Route path="/movies/:id" children={<Movie />} />

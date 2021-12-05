@@ -34,7 +34,7 @@ const SingleMovie = () => {
 		return (
 			<div className="page-error">
 				<h1>{error.msg}</h1>
-				<Link to="/" className="btn">
+				<Link to="/movies-db" className="btn">
 					back to movies
 				</Link>
 			</div>
@@ -50,7 +50,7 @@ const SingleMovie = () => {
 				<h2>{title}</h2>
 				<p>{plot}</p>
 				<h4>{year}</h4>
-				<Link to="/" className="btn">
+				<Link to="/movies-db" className="btn">
 					Back to movies
 				</Link>
 			</div>
